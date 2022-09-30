@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+}
+
+#nav{
+     padding-left: 5%;
+}
+
+#nav ul li a{
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .6s;
+    letter-spacing: 1.5px;
+    color: white;
+}
+
+#nav ul li a:hover{
+       color: #ec4b0b;
+       transform: translate(10px, 0px);
+}
+
+.my-heading{
+    color: #ec4b0b;
+    
+    margin-top: 17%;
+    margin-left: 35%;
+}
+
+#colorful-heading{
+    color: white;
+}
+
+#heading2{
+    font-size: 25px;
+}
+
+#heading-content{
+  font-size: 20px;
+  color: white;
+}
+/* ----------------------------------------------------about me css---------------------------------------------- */
+
+.section1{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+#heading{
+    margin-top: 20%;
+    color: #ec4b0b;
+}
+.about-me-image{
+    margin-top: 5%;
+    margin-left: 15%;
+    float: left;
+    margin-right: 5%;
+    
+}
+
+#about-me-content{
+   
+    margin-right: 15%;
+    margin-top: 8%;
+}
+
+
+#about-me-content p{
+    font-size: 19px;
+    color: #fff;
+    text-align: left;
+}
+
+#about-image{
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    /* box-shadow: 0 0 10px white; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: 0.4s;
+}
+
+#about-image:hover{
+    box-shadow: 0 0 15px white;
+
+}
+
+
+
+/* ---------------skill section css------------------------------------------------------------------- */
+
+
+
+.section2{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+.skills {
+
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 70px);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10%;
+  }
+ .skl{
+     margin-left: 20px;
+     color: white;
+ }
+.sklLine{
+    position: relative;
+    bottom: 8px;
+    visibility: hidden;
+    padding-left: 6px;
+    color: #ec4b0b;
+}
+  .ProgWidth {
+    padding: 0px 20px;
+  }
+  .skillDiv {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+  }
+  .skillBar {
+    display: block;
+    height: 5px;
+    background-color: #ec4b0b;
+  }
+  .p {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .htmlBar {
+    width: 70%;
+    animation: html 3s 1s 5 forwards;
+  }
+  .cssBar {
+    width: 70%;
+    animation: css 3s 1s 5 forwards;
+  }
+  .jsBar {
+    width: 75%;
+    animation: js 3s 1s 5 forwards;
+  }
+  
+  .javaBar {
+    width: 85%;
+    animation: java 3s 1s 5 forwards;
+  }
+  .ccpBar {
+    width: 80%;
+    animation: ccp 3s 1s 5 forwards;
+  }
+  .pythonBar {
+    width: 10%;
+    animation: c 3s 1s 5 forwards;
+  }
+  
+  
+  @keyframes html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  @keyframes css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes js {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
+  @keyframes java {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+  @keyframes ccp {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes c {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+  @keyframes python {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 35%;
+    }
+  }
+
+  @keyframes sql {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
+
+/* ----------------------------------------------contact css ---------------------------------------------- */
+.section3{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+}
+
+#head{
+  margin-top: 3%;
+  color: white;
+}
+
+.form{
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    margin-top: 8%;
+}
+
+.details{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.details li{
+    list-style: none;
+    padding: 3%;
+    color: #ec4b0b;
+    text-align: justify;
+}
+
+.form label{
+  color: white;
+}
+
+.form input {
+  background-color: rgb(226, 214, 214);
+}
+
+.form textarea{
+  background-color: rgb(226, 214, 214);
+}
+
+/* -----------------------------------------------------------footer section---------------------------------------- */
+
+#footer-section{
+  margin-top: 10%;
+ 
+}
+
+#social-icons i{
+  padding: 5px;
+}
+
+#social-icons .fa{
+  color: #ec4b0b;
+  /* border: 2px solid white; */
+ 
+  transition: .6s;
+  /* border-radius: 50%; */
+}
+
+#social-icons .fa:hover{
+  transform: translate(0, -10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------social media icons css------------------------------------ */
+
